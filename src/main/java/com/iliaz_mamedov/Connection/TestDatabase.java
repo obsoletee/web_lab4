@@ -4,7 +4,7 @@ import com.iliaz_mamedov.Connection.JDBC;
 import java.util.*;
 import java.sql.*;
 public class TestDatabase {
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
         System.out.println("---- MySQL JDBC Connection Testing ----");
 
         try {

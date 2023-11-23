@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/TestDatabase.java" afterDir="false" />
+    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="add Connection classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/TestOfTables/CreateTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/TestOfTables/GetAllRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/TestOfTables/InsertTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/TestDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/TestDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +42,29 @@
     </option>
   </component>
   <component name="ProjectId" id="2Yady9RkbVvqtsngh0G0chYOVYR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Program Files (x86)/mysql-8.2.0-winx64",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/sqljdbc_12.4/enu/jars&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\3 курс\web\web лаб 4\web_lab4\src\main\java\com\iliaz_mamedov" />
       <recent name="C:\Users\user\Desktop\3 курс\web\web лаб 4\web_lab4\src\main\java" />
     </key>
   </component>
@@ -69,6 +77,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700767877189</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Connection classes">
+      <created>1700771171357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700771171357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add Connection classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Connection classes" />
   </component>
 </project>

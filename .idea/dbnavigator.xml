@@ -8,7 +8,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="9efe9253-6dc9-4492-bc06-7b3eceb93bd6">
-      <console name="Books" type="STANDARD" schema="" session="Main" />
+      <console name="Books" type="STANDARD" schema="books" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -27,9 +27,9 @@
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
           <database-version value="8.2" />
-          <driver-source value="BUNDLED" />
-          <driver-library value="" />
-          <driver value="" />
+          <driver-source value="EXTERNAL" />
+          <driver-library value="C:\Program Files (x86)\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0.jar" />
+          <driver value="com.mysql.cj.jdbc.Driver" />
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />

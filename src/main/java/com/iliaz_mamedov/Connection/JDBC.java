@@ -7,7 +7,7 @@ public class JDBC {
 
     public static void connect() throws SQLException {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("src.mysql.cj.jdbc.Driver");
             System.out.println("MySQL JDBC Driver Registered");
         } catch (ClassNotFoundException e) {
             System.out.println("Where is your MySQL JDBC Driver?");
