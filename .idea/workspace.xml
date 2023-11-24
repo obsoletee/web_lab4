@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="query3 and query4 added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query6.java" afterDir="false" />
+    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="query5 and query6 added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700767877189</updated>
-      <workItem from="1700829013919" duration="8639000" />
+      <workItem from="1700829013919" duration="10036000" />
     </task>
     <task id="LOCAL-00001" summary="add Connection classes">
       <created>1700771171357</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700836512243</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="query5 and query6 added">
+      <created>1700837678073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700837678073</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +148,8 @@
     <MESSAGE value="я наконец-то подключил базу данных храни ее господь" />
     <MESSAGE value="query1 and query2 added" />
     <MESSAGE value="query3 and query4 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="query3 and query4 added" />
+    <MESSAGE value="query5 and query6 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="query5 and query6 added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
