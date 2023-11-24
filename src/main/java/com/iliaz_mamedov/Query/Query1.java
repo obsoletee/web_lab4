@@ -11,14 +11,15 @@ public class Query1 {
             JDBC.connect();
 
             stmt = JDBC.connection.createStatement();
-            String query2Author = "SELECT * FROM titles";
-            System.out.println("Show all publishers");
+            String query1Author = "SELECT * FROM authors ORDER BY firstName ASC, lastName ASC";
+            System.out.println("Authors sorted by first name:");
 
-            ResultSet rs1 = stmt.executeQuery(query2Author);
+            ResultSet rs1 = stmt.executeQuery(query1Author);
             while (rs1.next()) {
-                int id = rs1.getInt("publisherID");
-                String pubName = rs1.getString("title");
-                System.out.println(id + "\t" + pubName);
+                int id = rs1.getInt("authorID");
+                String firstName = rs1.getString("firstName");
+                String lastName = rs1.getString("lastNAme");
+                System.out.println(id + "\t" + firstName + "\t" + lastName);
             }
 
         } catch(SQLException se) {

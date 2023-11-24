@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="query create">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="91d2bc91-a7b3-4e5b-9a36-078a8558c76c" name="Changes" comment="я наконец-то подключил базу данных храни ее господь">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Connection/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/TestOfTables/CreateTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/TestOfTables/CreateTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iliaz_mamedov/Query/Query1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,6 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Program Files (x86)/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar",
     "project.structure.last.edited": "SDKs",
@@ -87,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700767877189</updated>
-      <workItem from="1700829013919" duration="5088000" />
+      <workItem from="1700829013919" duration="6042000" />
     </task>
     <task id="LOCAL-00001" summary="add Connection classes">
       <created>1700771171357</created>
@@ -103,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700776811688</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="я наконец-то подключил базу данных храни ее господь">
+      <created>1700834198536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700834198536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +125,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add Connection classes" />
     <MESSAGE value="query create" />
-    <option name="LAST_COMMIT_MESSAGE" value="query create" />
+    <MESSAGE value="я наконец-то подключил базу данных храни ее господь" />
+    <option name="LAST_COMMIT_MESSAGE" value="я наконец-то подключил базу данных храни ее господь" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
