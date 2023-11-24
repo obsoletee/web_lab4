@@ -17,22 +17,22 @@ public class CreateTables {
                 stmt = JDBC.connection.createStatement();
 
                 // Drop Tables
-                String drop1 = "DROP TABLE IF EXIST Authors";
+                String drop1 = "DROP TABLE IF EXISTS Authors";
                 stmt.executeUpdate(drop1);
 
-                String drop2 = "DROP TABLE IF EXIST Titles";
+                String drop2 = "DROP TABLE IF EXISTS Titles";
                 stmt.executeUpdate(drop2);
 
-                String drop3 = "DROP TABLE IF EXIST Publishers";
+                String drop3 = "DROP TABLE IF EXISTS Publishers";
                 stmt.executeUpdate(drop3);
 
-                String drop4 = "DROP TABLE IF EXIST authorISBN";
+                String drop4 = "DROP TABLE IF EXISTS AuthorISBN";
                 stmt.executeUpdate(drop4);
                 System.out.println("Data deleted");
 
                 // Create Tables
                 String authorsTable = "CREATE TABLE Authors" +
-                        "(authorUD INTEGER NOT NULL AUTO_INCREMENT," +
+                        "(authorID INTEGER NOT NULL AUTO_INCREMENT," +
                         "firstName CHAR(20)," +
                         "lastName CHAR(20)," +
                         "PRIMARY KEY (authorID))";
@@ -51,8 +51,8 @@ public class CreateTables {
                 stmt.executeUpdate(titlesTable);
                 System.out.println("Created Titles table");
 
-                String publishersTable = "CRETE TABLE Publishers " +
-                        "(publisherID INTEGER NOT FULL AUTO_INCREMENT, " +
+                String publishersTable = "CREATE TABLE Publishers " +
+                        "(publisherID INTEGER NOT NULL AUTO_INCREMENT, " +
                         "publisherName CHAR(100)," +
                         "PRIMARY KEY (publisherID))";
 

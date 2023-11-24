@@ -2,9 +2,8 @@ package com.iliaz_mamedov.Query;
 import com.iliaz_mamedov.Connection.JDBC;
 
 import java.sql.*;
-import java.util.*;
 
-public class Query {
+public class Query1 {
     public static void main(String[] args) {
         Statement stmt = null;
         try {
@@ -12,13 +11,13 @@ public class Query {
             JDBC.connect();
 
             stmt = JDBC.connection.createStatement();
-            String query2Author = "SELECT * FROM publishers";
+            String query2Author = "SELECT * FROM titles";
             System.out.println("Show all publishers");
 
             ResultSet rs1 = stmt.executeQuery(query2Author);
             while (rs1.next()) {
                 int id = rs1.getInt("publisherID");
-                String pubName = rs1.getString("publisherName");
+                String pubName = rs1.getString("title");
                 System.out.println(id + "\t" + pubName);
             }
 
